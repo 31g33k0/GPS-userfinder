@@ -7,7 +7,7 @@ This is a simple script to find the location of a user on a map. It uses the osm
 ## Installation :
 
 1. Clone the repository
-2. Install the requirements using `pip install -r requirements.txt`
+2. Install the requirements using `pip install -r requirements.txt` TODO : add a requirements.txt
 3. Run the script using `python3 main.py`
 
 ## Usage :
