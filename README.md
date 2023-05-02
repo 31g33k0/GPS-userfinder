@@ -17,7 +17,7 @@ This is a simple script to find the location of a user on a map. It uses the osm
 3. Start the script by typing `python3 main.py` or equivalent from the application folder. Note that it may not work with pyhton 2.7 or older.
 4. Open the GPS-userfinder web-app and click on the button to get the location of the user. You can find the web interface of the app at `http://localhost:5000`  (or 0.0.0.0:5000 or 127.0.0.1:5000).   
 If you are experiencing issues with Osmand, or want to give the coordinates from another source, you can update coordinates "manually" here :   
-`http://localhost:5000/updates?lat=0&lon=0`   
+`http://localhost:5000/update?lat=0&lon=0`   
 change the 0 by the lat and lon values respectively
 5. Done ! The location of the user will be displayed on the map.
 
