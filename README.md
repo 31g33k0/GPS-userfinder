@@ -12,8 +12,9 @@ This is a simple script to find the location of a user on a map. It uses the osm
 
 ## Usage :
 
-1. Open osmand and go to settings -> General settings -> Share -> Share location -> Share via -> Share with apps -> Select GPS-userfinder`
-2. Open the GPS-userfinder app and click on the button to get the location of the user. You can find the web interface of the app at `http://localhost:5000`  (or 0.0.0.0:5000 or 127.0.0.1:5000)
+1. On your smartphone (android), get Osmand from F-droid (the google play store version has not the needed feature to pipe GPS coordinates to a custom URL)
+2. open the options panel, extensions (erweiterungen in German version), add Path descriptions (Streckenaufzeichnung). go back on the map GUI and notice the REC button. push it (go in Options to fine grain your demand). you can now start and pause the tracking. Do not forget to give autorizations to Osmand to access the GPS
+2. Open the GPS-userfinder web-app and click on the button to get the location of the user. You can find the web interface of the app at `http://localhost:5000`  (or 0.0.0.0:5000 or 127.0.0.1:5000)
 3. The location of the user will be displayed on the map.
 
 ## Screenshots :
